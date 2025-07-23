@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest, coverage, test artifacts
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+*.log
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# Uvicorn reload pid
+*.pid
+
+# Pydantic or schema cache
+*.msgpack
+*.json
+
+# SQLite or other local databases (nếu có)
+*.db
+*.sqlite3
+
+# Docker (nếu bạn sử dụng Docker)
+**/__pycache__/
+*.pyc
+*.pyo
+.dockerignore
+
+# Optional: lock files (nếu bạn không muốn commit)
+poetry.lock
+Pipfile.lock
